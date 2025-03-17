@@ -1,13 +1,21 @@
-function createArrayOfNumbers(min, max) {
-  let minMaxArray = [];
-  for (let i = min; i <= max; i++){
-    minMaxArray.push(i);
-  }
-  return minMaxArray;
-}
+
+
+
 
 
 /*
+
+--- practice
+
+const planets = ["Earth", "Mars", "Venus"];
+
+let i = 1;
+    
+for (const planet of planets) {
+    console.log(i + " " + planet);
+
+    i++;
+}
 
 --- practice
 
