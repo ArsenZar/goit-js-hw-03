@@ -14,6 +14,7 @@ book.price = {
   softcover: 29,
 };
 
+console.log(book);
 console.log(book.pageCount); // 836
 console.log(book.originalLanguage); // "en"
 console.log(book.translations); // ["ua", "ru"]
