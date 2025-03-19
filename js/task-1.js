@@ -1,7 +1,18 @@
+function slugify(title) {
+  let newTitle = title.toLowerCase().split(" ").join("-");
+  return newTitle;
+}
+
+
+console.log(slugify("Arrays for beginners")); // "arrays-for-beginners"
+console.log(slugify("English for developer")); // "english-for-developer"
+console.log(slugify("Ten secrets of JavaScript")); // "ten-secrets-of-javascript"
+console.log(slugify("How to become a JUNIOR developer in TWO WEEKS")); // "how-to-become-a-junior-developer-in-two-weeks"
+
 
 /* practice-5 */
 /* this example shows how to get keys and values from an object if we don`t know the keys and values */
-
+/* 
 const apartment = {
   descr: "Spacious apartment in the city center",
   rating: 4,
@@ -18,7 +29,7 @@ for (const key in apartment){
 
 console.log(keys);
 console.log(values);
-
+*/
 
 /* practice-4 */
 /*
