@@ -1,3 +1,16 @@
+
+
+const emailInputName = "email";
+const passwordInputName = "password";
+
+const credentials = {
+  [emailInputName]: "henry.carter@aptmail.com",
+  [passwordInputName]: "jqueryismyjam",
+};
+
+/*
+--- practice
+
 const book = {
   title: "The Last Kingdom",
   author: "Bernard Cornwell",
@@ -20,8 +33,6 @@ console.log(book.originalLanguage); // "en"
 console.log(book.translations); // ["ua", "ru"]
 
 
-
-/*
 
 --- practice
 
